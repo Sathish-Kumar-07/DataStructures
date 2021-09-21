@@ -30,8 +30,9 @@ class SinglyLinkedList:
         if self.root is not None:
             temp = self.root  # Take A Temporary Variable And Assign Root Node
             while temp is not None:  # Iterate Until The Node Is None
-                print(temp.value)  # Print The Value Of The Node
+                print(temp.value,end="->")  # Print The Value Of The Node
                 temp = temp.nextNode  # Assign Temp Node To Its Next Node Each Time Condition Is True
+                print()
         else:
             print("List Is Empty")  # If Root Is Empty, Print It As Empty List
 
