@@ -124,14 +124,3 @@ class SinglyLinedList<T>{
         return false
     }
 }
-fun main(){
-    val S = SinglyLinedList<Int>()
-    S.addFirst(10)
-    S.addFirst(20)
-    S.addFirst(30)
-    S.addLast(40)
-    S.addLast(50)
-    S.addAt(100,3)
-    println(S)
-
-}
