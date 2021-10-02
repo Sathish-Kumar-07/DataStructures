@@ -143,9 +143,3 @@ class AVLTree:
             balanceNode = self.balance(node)
             balanceNode.height = max(balanceNode.getLeftChildHeight(), balanceNode.getRightChildHeight()) + 1
             return balanceNode
-
-S = AVLTree()
-for i in range(15):
-    S.insert(i)
-S.delete(10)
-S.levelOrder()
